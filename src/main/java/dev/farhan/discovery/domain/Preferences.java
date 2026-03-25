@@ -1,4 +1,4 @@
-package com.example.gameconnect.domain;
+package dev.farhan.discovery.domain;
 
 import java.util.Map;
 

@@ -1,10 +1,10 @@
-package com.example.gameconnect.controller;
+package dev.farhan.discovery.controller;
 
-import com.example.gameconnect.domain.UserProfile;
-import com.example.gameconnect.dto.CreateUserRequest;
-import com.example.gameconnect.dto.RatingRequest;
-import com.example.gameconnect.repository.UserProfileRepository;
-import com.example.gameconnect.service.RatingService;
+import dev.farhan.discovery.domain.UserProfile;
+import dev.farhan.discovery.dto.CreateUserRequest;
+import dev.farhan.discovery.dto.RatingRequest;
+import dev.farhan.discovery.repository.UserProfileRepository;
+import dev.farhan.discovery.service.RatingService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

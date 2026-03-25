@@ -1,4 +1,4 @@
-package com.example.gameconnect.dto;
+package dev.farhan.discovery.dto;
 
 public record RatingRequest(String gameId, int score) {
 }

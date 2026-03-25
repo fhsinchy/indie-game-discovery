@@ -1,7 +1,7 @@
-package com.example.gameconnect.controller;
+package dev.farhan.discovery.controller;
 
-import com.example.gameconnect.dto.GameRecommendation;
-import com.example.gameconnect.service.RecommendationService;
+import dev.farhan.discovery.dto.GameRecommendation;
+import dev.farhan.discovery.service.RecommendationService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

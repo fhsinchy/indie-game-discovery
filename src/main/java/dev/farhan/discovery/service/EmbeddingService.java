@@ -1,6 +1,6 @@
-package com.example.gameconnect.service;
+package dev.farhan.discovery.service;
 
-import com.example.gameconnect.domain.Game;
+import dev.farhan.discovery.domain.Game;
 import org.springframework.ai.embedding.EmbeddingModel;
 import org.springframework.stereotype.Service;
 

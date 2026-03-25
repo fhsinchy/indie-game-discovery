@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.example</groupId>
+    <groupId>dev.farhan</groupId>
     <artifactId>indie-game-discovery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Indie Game Discovery</name>

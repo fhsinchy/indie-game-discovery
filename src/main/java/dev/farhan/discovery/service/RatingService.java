@@ -1,12 +1,12 @@
-package com.example.gameconnect.service;
+package dev.farhan.discovery.service;
 
-import com.example.gameconnect.domain.Game;
-import com.example.gameconnect.domain.GameRating;
-import com.example.gameconnect.domain.Preferences;
-import com.example.gameconnect.domain.UserProfile;
-import com.example.gameconnect.dto.RatingRequest;
-import com.example.gameconnect.repository.GameRepository;
-import com.example.gameconnect.repository.UserProfileRepository;
+import dev.farhan.discovery.domain.Game;
+import dev.farhan.discovery.domain.GameRating;
+import dev.farhan.discovery.domain.Preferences;
+import dev.farhan.discovery.domain.UserProfile;
+import dev.farhan.discovery.dto.RatingRequest;
+import dev.farhan.discovery.repository.GameRepository;
+import dev.farhan.discovery.repository.UserProfileRepository;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;

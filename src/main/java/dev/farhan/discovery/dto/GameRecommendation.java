@@ -1,4 +1,4 @@
-package com.example.gameconnect.dto;
+package dev.farhan.discovery.dto;
 
 import java.util.List;
 

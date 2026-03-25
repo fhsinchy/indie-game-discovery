@@ -1,6 +1,6 @@
-package com.example.gameconnect.repository;
+package dev.farhan.discovery.repository;
 
-import com.example.gameconnect.domain.Game;
+import dev.farhan.discovery.domain.Game;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

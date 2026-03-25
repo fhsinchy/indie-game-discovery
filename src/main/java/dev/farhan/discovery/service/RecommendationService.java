@@ -1,4 +1,4 @@
-package com.example.gameconnect.service;
+package dev.farhan.discovery.service;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -14,10 +14,10 @@ import org.springframework.data.mongodb.core.aggregation.AggregationOperation;
 import org.springframework.data.mongodb.core.aggregation.AggregationResults;
 import org.springframework.stereotype.Service;
 
-import com.example.gameconnect.domain.Preferences;
-import com.example.gameconnect.domain.UserProfile;
-import com.example.gameconnect.dto.GameRecommendation;
-import com.example.gameconnect.repository.UserProfileRepository;
+import dev.farhan.discovery.domain.Preferences;
+import dev.farhan.discovery.domain.UserProfile;
+import dev.farhan.discovery.dto.GameRecommendation;
+import dev.farhan.discovery.repository.UserProfileRepository;
 
 @Service
 public class RecommendationService {

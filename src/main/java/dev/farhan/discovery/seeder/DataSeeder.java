@@ -1,8 +1,8 @@
-package com.example.gameconnect.seeder;
+package dev.farhan.discovery.seeder;
 
-import com.example.gameconnect.domain.Game;
-import com.example.gameconnect.repository.GameRepository;
-import com.example.gameconnect.service.EmbeddingService;
+import dev.farhan.discovery.domain.Game;
+import dev.farhan.discovery.repository.GameRepository;
+import dev.farhan.discovery.service.EmbeddingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

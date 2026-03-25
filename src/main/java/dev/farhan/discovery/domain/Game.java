@@ -1,4 +1,4 @@
-package com.example.gameconnect.domain;
+package dev.farhan.discovery.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

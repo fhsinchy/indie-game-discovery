@@ -20,7 +20,7 @@ cd indie-game-discovery
 2. Set environment variables:
 
 ```bash
-export MONGODB_URI="mongodb+srv://<username>:<password>@<cluster>.mongodb.net/indie-game-discovery"
+export MONGODB_URI="mongodb+srv://<username>:<password>@<cluster>.mongodb.net/indie-game-discovery?appName=devrel-tutorial-indie-game-discovery"
 export OPENAI_API_KEY="sk-..."
 ```
 

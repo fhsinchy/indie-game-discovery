@@ -1,6 +1,6 @@
-package com.example.gameconnect.repository;
+package dev.farhan.discovery.repository;
 
-import com.example.gameconnect.domain.UserProfile;
+import dev.farhan.discovery.domain.UserProfile;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UserProfileRepository extends MongoRepository<UserProfile, String> {

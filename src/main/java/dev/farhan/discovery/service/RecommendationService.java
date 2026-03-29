@@ -110,7 +110,11 @@ public class RecommendationService {
 
         AggregationOperation vectorSearch = context -> vectorSearchStage;
 
-        Aggregation aggregation = Aggregation.newAggregation(vectorSearch);
+        AggregationOperation addScore = context ->
+                new Document("$addFields",
+                        new Document("score", new Document("$meta", "vectorSearchScore")));
+
+        Aggregation aggregation = Aggregation.newAggregation(vectorSearch, addScore);
 
         AggregationResults<GameRecommendation> results =
                 mongoTemplate.aggregate(aggregation, "games", GameRecommendation.class);
